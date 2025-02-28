@@ -1,6 +1,6 @@
 # TranswellQuantification
 
-Processing of merged microscopic images of stained cells in Transwell assay
+Processing of merged microscopic images of stained cells in Transwell assay using Transwell_processing.m function in MATLAB.
 
 The script is used to analyze merged images of the lower side of the Transwell membrane to determine the area covered with migrated cells.
 Merged image should describe the whole membrane surface with insert borders.
