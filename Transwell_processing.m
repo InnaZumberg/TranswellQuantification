@@ -7,16 +7,10 @@ function[cutout_final,rectangle,Area] = Transwell_processing();
 % Merged image should describe the whole membrane surface with insert
 % borders.
 
-% For image processing, put all images from the experiment into one folder.
-% You should name the images appropriately so that the name of each image 
-% clearly specifies the test group.
-
-% For example: "control.tif", "Lido_500.tif", etc.
-
 % As an output, you will get:
-%   cutout_final = membrane cutout
-%   rectangle = selected rectangle region in membrane cutout for processing
-%   Area = surface area covered with migrated cells (in %)
+% cutout_final = membrane cutout
+% rectangle = selected rectangle region in membrane cutout for processing
+% Area = surface area covered with migrated cells (in %)
 
 % Used MATLAB version: R2021a
 % Author: Inna Zumberg 
